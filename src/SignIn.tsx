@@ -67,7 +67,7 @@ function SignIn({ onSignIn }: SignInProps) {
               <div>
                 <h3 className="text-xl font-semibold mb-2">3. Understand Your Margins</h3>
                 <p className="text-blue-100 leading-relaxed">
-                  Enter your COGS % and variable costs % so we can calculate your Contribution Margin.  CRITCAL!
+                  Enter your COGS % and variable costs % so we can calculate your Contribution Margin.   CRITCAL to Know!
                 </p>
               </div>
             </div>
