@@ -65,9 +65,10 @@ function SignIn({ onSignIn }: SignInProps) {
                 <Tag className="w-7 h-7" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">3. Understand Your Margins</h3>
+                <h3 className="text-xl font-semibold mb-2">3. Understand Your Margins. This is critical to know!</h3>
                 <p className="text-blue-100 leading-relaxed">
-                  Enter your COGS % and variable costs % so we can calculate your Contribution Margin.   This is critical to know!
+                  Enter your COGS % and variable costs % so we can calculate your Contribution Margin 'CM%'.<br />
+                  CM% is how much of every revenue dollar is able to pay for your "operating nut"
                 </p>
               </div>
             </div>
