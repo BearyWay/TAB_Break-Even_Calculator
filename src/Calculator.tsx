@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ChevronDown, Info, LogOut } from 'lucide-react';
+import { ChevronDown, Info, LogOut, DollarSign, Percent, Calculator as CalculatorIcon } from 'lucide-react';
 import { useAuth } from './contexts/AuthContext';
 
 function Calculator() {
@@ -284,7 +284,8 @@ function Calculator() {
               {/* Step 2 - Desired Profit */}
               <div className="bg-white rounded-xl shadow-lg p-6">
                 <div className="text-center mb-4">
-                  <div className="text-[#1e5ba8]">
+                  <div className="flex items-center justify-center gap-2 text-[#1e5ba8]">
+                    <DollarSign className="w-6 h-6" />
                     <span className="text-xl font-bold">Step 2</span>
                     <span className="text-lg font-semibold"> - Desired Profit</span>
                   </div>
@@ -340,6 +341,7 @@ function Calculator() {
               <div className="bg-white rounded-xl shadow-lg p-5">
                 <div className="text-center mb-3">
                   <div className="flex items-center gap-2 justify-center text-[#1e5ba8]">
+                    <Percent className="w-6 h-6" />
                     <span className="text-xl font-bold">Step 3</span>
                     <span className="text-lg font-semibold"> - calculate your Contribution Margin</span>
                     <button
@@ -500,7 +502,8 @@ function Calculator() {
               {/* Step 4 - Required Revenue Goals */}
               <div className="bg-white rounded-xl shadow-lg p-5 flex flex-col">
                 <div className="text-center mb-3">
-                  <div className="text-[#1e5ba8]">
+                  <div className="flex items-center justify-center gap-2 text-[#1e5ba8]">
+                    <CalculatorIcon className="w-6 h-6" />
                     <span className="text-xl font-bold">Step 4</span>
                     <span className="text-lg font-semibold"> - Required Revenue Goals</span>
                   </div>
