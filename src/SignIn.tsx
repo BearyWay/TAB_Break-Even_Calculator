@@ -41,7 +41,7 @@ function SignIn({ onSignIn }: SignInProps) {
               <div>
                 <h3 className="text-xl font-semibold mb-2">1. Enter Your Fixed Costs</h3>
                 <p className="text-blue-100 leading-relaxed">
-                  Add the ongoing expenses your business must pay every month or year.
+                  Add the fixed ongoing expenses your business must pay. Your "operating nut".
                 </p>
               </div>
             </div>
