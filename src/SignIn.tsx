@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Calculator, Clock, Tag, PieChart } from 'lucide-react';
+import { Calculator, Clock, DollarSign, Percent } from 'lucide-react';
 
 interface SignInProps {
   onSignIn: (email: string) => void;
@@ -49,7 +49,7 @@ function SignIn({ onSignIn }: SignInProps) {
             {/* Feature 2 */}
             <div className="flex gap-4">
               <div className="flex-shrink-0 w-14 h-14 bg-[#174a8c] bg-opacity-50 rounded-xl flex items-center justify-center">
-                <Tag className="w-7 h-7" />
+                <DollarSign className="w-7 h-7" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-2">2. Enter Your Profit Goal</h3>
@@ -62,7 +62,7 @@ function SignIn({ onSignIn }: SignInProps) {
             {/* Feature 3 */}
             <div className="flex gap-4">
               <div className="flex-shrink-0 w-14 h-14 bg-[#174a8c] bg-opacity-50 rounded-xl flex items-center justify-center">
-                <Tag className="w-7 h-7" />
+                <Percent className="w-7 h-7" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-2">3. Understand Your Margins. This is critical to know!</h3>
@@ -76,7 +76,7 @@ function SignIn({ onSignIn }: SignInProps) {
             {/* Feature 4 */}
             <div className="flex gap-4">
               <div className="flex-shrink-0 w-14 h-14 bg-[#174a8c] bg-opacity-50 rounded-xl flex items-center justify-center">
-                <PieChart className="w-7 h-7" />
+                <Calculator className="w-7 h-7" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-2">4. See Your Required Revenue</h3>
