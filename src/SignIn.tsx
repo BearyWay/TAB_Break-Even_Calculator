@@ -29,7 +29,7 @@ function SignIn({ onSignIn }: SignInProps) {
           </div>
 
           <h2 className="text-4xl font-bold mb-16 leading-tight">
-            Calculate Your Business Success
+            Know How Your Business Makes Money
           </h2>
 
           <div className="space-y-8">
@@ -39,8 +39,10 @@ function SignIn({ onSignIn }: SignInProps) {
                 <Clock className="w-7 h-7" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">Enter the fixed costs and desired profit you want your business to provide.</h3>
-                
+                <h3 className="text-xl font-semibold mb-2">1. Enter Your Fixed Costs</h3>
+                <p className="text-blue-100 leading-relaxed">
+                  Add the ongoing expenses your business must pay every month or year.
+                </p>
               </div>
             </div>
 
