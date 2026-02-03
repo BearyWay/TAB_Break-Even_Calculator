@@ -52,22 +52,35 @@ function SignIn({ onSignIn }: SignInProps) {
                 <Tag className="w-7 h-7" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">Know Your Margins!!</h3>
+                <h3 className="text-xl font-semibold mb-2">2. Enter Your Profit Goal</h3>
                 <p className="text-blue-100 leading-relaxed">
-                  Enter your COGS %, variable costs % so you can calculate your Contribution Margin %.  (CM%)<br /> CM% is the amount of revenue dollars that remains to cover fixed costs and generate profit.
+                  Tell us how much profit you want your business to generate.
+                </p>
+              </div>
+            </div>
+            
+            {/* Feature 3 */}
+            <div className="flex gap-4">
+              <div className="flex-shrink-0 w-14 h-14 bg-[#174a8c] bg-opacity-50 rounded-xl flex items-center justify-center">
+                <Tag className="w-7 h-7" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">3. Understand Your Margins</h3>
+                <p className="text-blue-100 leading-relaxed">
+                  Enter your COGS % and variable costs % so we can calculate your Contribution Margin.  (CM%)<br /> CM% is the amount of revenue dollars that remains to cover fixed costs and generate profit.
                 </p>
               </div>
             </div>
 
-            {/* Feature 3 */}
+            {/* Feature 4 */}
             <div className="flex gap-4">
               <div className="flex-shrink-0 w-14 h-14 bg-[#174a8c] bg-opacity-50 rounded-xl flex items-center justify-center">
                 <PieChart className="w-7 h-7" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">Calculate Revenue Goals</h3>
+                <h3 className="text-xl font-semibold mb-2">4. See Your Required Revenue</h3>
                 <p className="text-blue-100 leading-relaxed">
-                  See exactly what Revenue levels you need to achieve break-even and reach your desired profit targets.
+                  Find out exactly how much revenue you need to break even and hit your profit goal.
                 </p>
               </div>
             </div>
