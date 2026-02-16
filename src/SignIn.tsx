@@ -21,7 +21,7 @@ function SignIn({ onSignIn }: SignInProps) {
   return (
     <div className="min-h-screen flex">
       {/* Left Side - Features */}
-      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-[#1e5ba8] to-[#174a8c] text-white p-12 flex-col justify-between">
+      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-[#267ffc] to-[#1e5ba8] text-white p-12 flex-col justify-between">
         <div>
           <div className="flex items-center gap-3 mb-12">
             <Calculator className="w-8 h-8" />
@@ -35,7 +35,7 @@ function SignIn({ onSignIn }: SignInProps) {
           <div className="space-y-8">
             {/* Feature 1 */}
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-14 h-14 bg-[#174a8c] bg-opacity-50 rounded-xl flex items-center justify-center">
+              <div className="flex-shrink-0 w-14 h-14 bg-[#1e5ba8] bg-opacity-50 rounded-xl flex items-center justify-center">
                 <Clock className="w-7 h-7" />
               </div>
               <div>
@@ -48,7 +48,7 @@ function SignIn({ onSignIn }: SignInProps) {
 
             {/* Feature 2 */}
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-14 h-14 bg-[#174a8c] bg-opacity-50 rounded-xl flex items-center justify-center">
+              <div className="flex-shrink-0 w-14 h-14 bg-[#1e5ba8] bg-opacity-50 rounded-xl flex items-center justify-center">
                 <DollarSign className="w-7 h-7" />
               </div>
               <div>
@@ -61,7 +61,7 @@ function SignIn({ onSignIn }: SignInProps) {
             
             {/* Feature 3 */}
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-14 h-14 bg-[#174a8c] bg-opacity-50 rounded-xl flex items-center justify-center">
+              <div className="flex-shrink-0 w-14 h-14 bg-[#1e5ba8] bg-opacity-50 rounded-xl flex items-center justify-center">
                 <Percent className="w-7 h-7" />
               </div>
               <div>
@@ -75,7 +75,7 @@ function SignIn({ onSignIn }: SignInProps) {
 
             {/* Feature 4 */}
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-14 h-14 bg-[#174a8c] bg-opacity-50 rounded-xl flex items-center justify-center">
+              <div className="flex-shrink-0 w-14 h-14 bg-[#1e5ba8] bg-opacity-50 rounded-xl flex items-center justify-center">
                 <Calculator className="w-7 h-7" />
               </div>
               <div>
@@ -88,7 +88,7 @@ function SignIn({ onSignIn }: SignInProps) {
           </div>
         </div>
 
-        <div className="bg-[#174a8c] bg-opacity-40 rounded-xl p-6">
+        <div className="bg-[#1e5ba8] bg-opacity-40 rounded-xl p-6">
           <p className="text-blue-50 leading-relaxed">
             Your data is private and saved automatically. Access your calculator from any device.
           </p>
@@ -122,7 +122,7 @@ function SignIn({ onSignIn }: SignInProps) {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="you@example.com"
                 required
-                className="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-[#1e5ba8] focus:outline-none text-slate-900 placeholder-slate-400"
+                className="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-[#267ffc] focus:outline-none text-slate-900 placeholder-slate-400"
               />
             </div>
 
@@ -133,7 +133,7 @@ function SignIn({ onSignIn }: SignInProps) {
             <button
               type="submit"
               disabled={isLoading || !email}
-              className="w-full bg-[#1e5ba8] text-white py-3 rounded-lg font-semibold text-lg hover:bg-[#174a8c] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-[#267ffc] text-white py-3 rounded-lg font-semibold text-lg hover:bg-[#1e5ba8] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isLoading ? 'Loading...' : 'Continue'}
             </button>
@@ -141,7 +141,7 @@ function SignIn({ onSignIn }: SignInProps) {
 
           {/* Mobile TAB Calculator Title */}
           <div className="lg:hidden mt-12 text-center">
-            <div className="flex items-center justify-center gap-2 text-[#1e5ba8] mb-4">
+            <div className="flex items-center justify-center gap-2 text-[#267ffc] mb-4">
               <Calculator className="w-6 h-6" />
               <span className="font-semibold">TAB Break-Even Calculator</span>
             </div>
