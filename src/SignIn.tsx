@@ -35,7 +35,7 @@ function SignIn({ onSignIn }: SignInProps) {
           <div className="space-y-8">
             {/* Feature 1 */}
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-14 h-14 bg-[#1e5ba8] bg-opacity-50 rounded-xl flex items-center justify-center">
+              <div className="flex-shrink-0 w-14 h-14 bg-[#1a4278] rounded-xl flex items-center justify-center">
                 <Clock className="w-7 h-7" />
               </div>
               <div>
@@ -48,7 +48,7 @@ function SignIn({ onSignIn }: SignInProps) {
 
             {/* Feature 2 */}
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-14 h-14 bg-[#1e5ba8] bg-opacity-50 rounded-xl flex items-center justify-center">
+              <div className="flex-shrink-0 w-14 h-14 bg-[#1a4278] rounded-xl flex items-center justify-center">
                 <DollarSign className="w-7 h-7" />
               </div>
               <div>
@@ -58,10 +58,10 @@ function SignIn({ onSignIn }: SignInProps) {
                 </p>
               </div>
             </div>
-            
+
             {/* Feature 3 */}
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-14 h-14 bg-[#1e5ba8] bg-opacity-50 rounded-xl flex items-center justify-center">
+              <div className="flex-shrink-0 w-14 h-14 bg-[#1a4278] rounded-xl flex items-center justify-center">
                 <Percent className="w-7 h-7" />
               </div>
               <div>
@@ -75,7 +75,7 @@ function SignIn({ onSignIn }: SignInProps) {
 
             {/* Feature 4 */}
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-14 h-14 bg-[#1e5ba8] bg-opacity-50 rounded-xl flex items-center justify-center">
+              <div className="flex-shrink-0 w-14 h-14 bg-[#1a4278] rounded-xl flex items-center justify-center">
                 <Calculator className="w-7 h-7" />
               </div>
               <div>
@@ -88,7 +88,7 @@ function SignIn({ onSignIn }: SignInProps) {
           </div>
         </div>
 
-        <div className="bg-[#1e5ba8] bg-opacity-40 rounded-xl p-6">
+        <div className="bg-[#1a4278] rounded-xl p-6">
           <p className="text-blue-50 leading-relaxed">
             Your data is private and saved automatically. Access your calculator from any device.
           </p>
