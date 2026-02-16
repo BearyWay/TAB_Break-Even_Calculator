@@ -133,7 +133,7 @@ function SignIn({ onSignIn }: SignInProps) {
             <button
               type="submit"
               disabled={isLoading || !email}
-              className="w-full bg-[#000763] text-white py-3 rounded-lg font-semibold text-lg hover:bg-[#001a99] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-[#000763] text-white py-3 rounded-lg font-semibold text-lg hover:bg-[#001a99] transition-colors disabled:cursor-not-allowed"
             >
               {isLoading ? 'Loading...' : 'Continue'}
             </button>
