@@ -39,7 +39,7 @@ function SignIn({ onSignIn }: SignInProps) {
                 <Clock className="w-7 h-7" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">1. Enter Your Fixed Costs</h3>
+                <h3 className="text-xl font-semibold mb-2">Enter Your Fixed Costs</h3>
                 <p className="text-blue-100 leading-relaxed">
                   Add the fixed ongoing expenses your business must pay. Your "operating nut".
                 </p>
@@ -52,7 +52,7 @@ function SignIn({ onSignIn }: SignInProps) {
                 <DollarSign className="w-7 h-7" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">2. Enter Your Profit Goal</h3>
+                <h3 className="text-xl font-semibold mb-2">Enter Your Profit Goal</h3>
                 <p className="text-blue-100 leading-relaxed">
                   Tell us how much profit you want your business to generate.
                 </p>
@@ -65,7 +65,7 @@ function SignIn({ onSignIn }: SignInProps) {
                 <Percent className="w-7 h-7" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">3. Understand Your Margins. This is critical to know!</h3>
+                <h3 className="text-xl font-semibold mb-2">Understand Your Margins. This is critical to know!</h3>
                 <p className="text-blue-100 leading-relaxed">
                   Enter your COGS % and variable costs % so we can calculate your Contribution Margin 'CM%'.<br />
                   CM% is how much of every revenue dollar is able to be applied to coivering your "operating nut"
@@ -79,7 +79,7 @@ function SignIn({ onSignIn }: SignInProps) {
                 <Calculator className="w-7 h-7" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">4. See Your Required Revenue</h3>
+                <h3 className="text-xl font-semibold mb-2">See Your Required Revenue</h3>
                 <p className="text-blue-100 leading-relaxed">
                   Find out exactly how much revenue you need to break even and hit your profit goal.
                 </p>
@@ -133,7 +133,7 @@ function SignIn({ onSignIn }: SignInProps) {
             <button
               type="submit"
               disabled={isLoading || !email}
-              className="w-full bg-[#267ffc] text-white py-3 rounded-lg font-semibold text-lg hover:bg-[#1e5ba8] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-[#000763] text-white py-3 rounded-lg font-semibold text-lg hover:bg-[#001a99] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isLoading ? 'Loading...' : 'Continue'}
             </button>
