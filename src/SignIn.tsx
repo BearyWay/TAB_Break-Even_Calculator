@@ -48,7 +48,7 @@ function SignIn({ onSignIn }: SignInProps) {
               </div>
 
               {/* Feature 2 */}
-              <div className="flex gap-4>
+              <div className="flex gap-4">
                 <div className="flex-shrink-0 w-14 h-14 bg-[#1a4278] rounded-xl flex items-center justify-center">
                   <DollarSign className="w-7 h-7" />
                 </div>
