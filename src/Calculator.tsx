@@ -118,17 +118,17 @@ function Calculator() {
             {/* LEFT COLUMN - Step 1 */}
             <div className="space-y-8 flex flex-col">
               {/* Step 1 - Dollars to Pay */}
-              <div className="bg-white rounded-xl shadow-lg p-10">
-                <div className="text-center mb-4">
+              <div className="bg-white rounded-xl shadow-lg p-12">
+                <div className="text-center mb-8">
                   <div className="text-[#1e5ba8]">
                     <span className="text-xl font-bold">Step 1</span>
                     <span className="text-lg font-semibold"> - fixed dollars that your business will pay</span>
                   </div>
                 </div>
 
-                <h4 className="text-sm font-bold text-slate-900 mb-6">Enter your Fixed Expenses:</h4>
+                <h4 className="text-sm font-bold text-slate-900 mb-8">Enter your Fixed Expenses:</h4>
 
-                <div className="space-y-5 mb-6">
+                <div className="space-y-6 mb-8">
                   {/* Facilities & Location */}
                   <div>
                     <div className="flex items-center justify-between gap-3">
@@ -271,8 +271,8 @@ function Calculator() {
                 </div>
 
                 {/* Subtotal: Fixed Expenses */}
-                <div className="border-t-2 border-slate-300 pt-6 mb-3">
-                  <div className="bg-slate-50 rounded-lg p-5 border border-slate-200 flex items-center justify-between">
+                <div className="border-t-2 border-slate-300 pt-8 mb-3">
+                  <div className="bg-slate-50 rounded-lg p-6 border border-slate-200 flex items-center justify-between">
                     <div className="text-sm font-bold text-slate-600">Subtotal: Fixed Expenses</div>
                     <div className="text-lg font-bold text-slate-900">
                       {formatCurrency(fixedCosts)}
@@ -282,15 +282,15 @@ function Calculator() {
               </div>
 
               {/* Step 2 - Desired Profit */}
-              <div className="bg-white rounded-xl shadow-lg p-10">
-                <div className="text-center mb-4">
+              <div className="bg-white rounded-xl shadow-lg p-12">
+                <div className="text-center mb-8">
                   <div className="text-[#1e5ba8]">
                     <span className="text-xl font-bold">Step 2</span>
                     <span className="text-lg font-semibold"> - Desired Profit</span>
                   </div>
                 </div>
 
-                <div className="flex items-center justify-between gap-3 mb-6">
+                <div className="flex items-center justify-between gap-3 mb-8">
                   <div className="flex items-center gap-2">
                     <h4 className="text-sm font-bold text-slate-900">
                       Enter your Desired Profit: <span className="font-normal">(optional)</span>
@@ -323,8 +323,8 @@ function Calculator() {
                 )}
 
                 {/* Total Required Dollars */}
-                <div className="border-t-2 border-blue-400 pt-6 mt-6">
-                  <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border-2 border-blue-300 flex items-center justify-between">
+                <div className="border-t-2 border-blue-400 pt-8 mt-8">
+                  <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-8 border-2 border-blue-300 flex items-center justify-between">
                     <div className="text-sm font-bold text-blue-900">Total Required Dollars (Fixed + Profit)</div>
                     <div className="text-lg font-bold text-blue-600">
                       {formatCurrency(totalDollars)}
@@ -337,8 +337,8 @@ function Calculator() {
             {/* RIGHT COLUMN - Step 3 & Step 4 */}
             <div className="space-y-6 flex flex-col">
               {/* Step 3 - Contribution Margin */}
-              <div className="bg-white rounded-xl shadow-lg p-10">
-                <div className="text-center mb-3">
+              <div className="bg-white rounded-xl shadow-lg p-12">
+                <div className="text-center mb-8">
                   <div className="flex items-center gap-2 justify-center text-[#1e5ba8]">
                     <span className="text-xl font-bold">Step 3</span>
                     <span className="text-lg font-semibold"> - calculate your Contribution Margin</span>
@@ -498,16 +498,16 @@ function Calculator() {
               </div>
 
               {/* Step 4 - Required Revenue Goals */}
-              <div className="bg-white rounded-xl shadow-lg p-10 flex flex-col">
-                <div className="text-center mb-3">
+              <div className="bg-white rounded-xl shadow-lg p-12 flex flex-col">
+                <div className="text-center mb-8">
                   <div className="text-[#1e5ba8]">
                     <span className="text-xl font-bold">Step 4</span>
                     <span className="text-lg font-semibold"> - Required Revenue Goals</span>
                   </div>
                 </div>
 
-                <div className="space-y-5">
-                  <div className="bg-slate-50 rounded-lg p-5 border border-slate-200">
+                <div className="space-y-6">
+                  <div className="bg-slate-50 rounded-lg p-6 border border-slate-200">
                     <div className="text-xs font-semibold text-slate-600 mb-3">Break-Even Revenue Goal: (before any Profit)</div>
                     <div className="grid grid-cols-5 gap-2 text-center mb-2">
                       <div className="text-xs text-slate-600">(Total Dollars)</div>
@@ -525,7 +525,7 @@ function Calculator() {
                     </div>
                   </div>
 
-                  <div className="bg-blue-50 rounded-lg p-5 border border-blue-200">
+                  <div className="bg-blue-50 rounded-lg p-6 border border-blue-200">
                     <div className="text-xs font-semibold text-blue-700 mb-3">Revenue Goal with Desired Profit:</div>
                     <div className="grid grid-cols-5 gap-2 text-center mb-2">
                       <div className="text-xs text-blue-600">(Total Dollars)</div>
