@@ -22,7 +22,7 @@ function SignIn({ onSignIn }: SignInProps) {
     <div className="min-h-screen flex items-center justify-center p-4 bg-slate-50">
       <div className="max-w-[1400px] w-full bg-white rounded-2xl shadow-xl overflow-hidden flex min-h-[900px]">
         {/* Left Side - Features */}
-        <div className="hidden lg:flex lg:w-1/2 h-full bg-gradient-to-br from-[#267ffc] to-[#1e5ba8] text-white p-12 flex-col justify-between">
+        <div className="hidden lg:flex lg:w-1/2 h-full bg-gradient-to-b from-[#267ffc] to-[#267ffc] text-white p-12 flex-col justify-between">
           <div>
             <div className="flex items-center gap-3 mb-6">
               <Calculator className="w-8 h-8" />
@@ -89,7 +89,7 @@ function SignIn({ onSignIn }: SignInProps) {
             </div>
           </div>
 
-          <div className="bg-[#1a4278] rounded-xl p-6">
+          <div className="bg-[#1a4278] rounded-xl p-6 mt-12">
             <p className="text-blue-50 leading-relaxed text-base">
               Your data is private and saved automatically. Access your calculator from any device.
             </p>
