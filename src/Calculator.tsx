@@ -113,7 +113,7 @@ function Calculator() {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-[90rem] mx-auto">
           <div className="grid lg:grid-cols-2 gap-8 mb-6 items-start">
             {/* LEFT COLUMN - Step 1 */}
             <div className="space-y-8 flex flex-col">
