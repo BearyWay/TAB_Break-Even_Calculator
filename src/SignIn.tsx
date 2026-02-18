@@ -66,7 +66,7 @@ function SignIn({ onSignIn }: SignInProps) {
                   <Percent className="w-7 h-7" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Understand Your Margins. This is critical to know!</h3>
+                  <h3 className="text-xl font-semibold mb-2">Understand Your Margins. Critical to know!</h3>
                   <p className="text-blue-100 leading-relaxed text-base">
                     Enter your COGS % and variable costs % so we can calculate your Contribution Margin 'CM%'.<br />
                     CM% is how much of every revenue dollar is able to be applied to coivering your "operating nut"
