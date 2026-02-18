@@ -24,12 +24,12 @@ function SignIn({ onSignIn }: SignInProps) {
         {/* Left Side - Features */}
         <div className="hidden lg:flex lg:w-1/2 h-full bg-gradient-to-br from-[#267ffc] to-[#1e5ba8] text-white p-12 flex-col justify-between">
           <div>
-            <div className="flex items-center gap-3 mb-12">
+            <div className="flex items-center gap-3 mb-6">
               <Calculator className="w-8 h-8" />
               <h1 className="text-2xl font-bold">TAB Break-Even Calculator</h1>
             </div>
 
-            <h2 className="text-5xl font-bold mb-16 leading-tight">
+            <h2 className="text-5xl font-bold mb-8 leading-tight">
               Know How Your Business Makes Money
             </h2>
 
