@@ -97,7 +97,7 @@ function SignIn({ onSignIn }: SignInProps) {
         </div>
 
         {/* Right Side - Sign In Form */}
-        <<div className="lg:w-1/2 flex items-center justify-center p-12 bg-white">
+        <div className="lg:w-1/2 flex items-center justify-center p-12 bg-white">
 
           <div className="w-full max-w-md">
             <div className="text-center mb-10">
