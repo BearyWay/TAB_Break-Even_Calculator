@@ -20,7 +20,7 @@ function SignIn({ onSignIn }: SignInProps) {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-slate-50">
-      <div className="max-w-7xl w-full bg-white rounded-2xl shadow-xl overflow-hidden flex">
+      <div className="max-w-7.2xl w-full bg-white rounded-2xl shadow-xl overflow-hidden flex">
         {/* Left Side - Features */}
         <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-[#267ffc] to-[#1e5ba8] text-white p-12 flex-col justify-between">
           <div>
