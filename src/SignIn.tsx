@@ -61,7 +61,7 @@ function SignIn({ onSignIn }: SignInProps) {
               </div>
 
               {/* Feature 3 */}
-              <div className="flex gap-4">
+              <div className="flex gap-3">
                 <div className="flex-shrink-0 w-14 h-14 bg-[#1a4278] rounded-xl flex items-center justify-center">
                   <Percent className="w-7 h-7" />
                 </div>
@@ -75,7 +75,7 @@ function SignIn({ onSignIn }: SignInProps) {
               </div>
 
               {/* Feature 4 */}
-              <div className="flex gap-4">
+              <div className="flex gap-3">
                 <div className="flex-shrink-0 w-14 h-14 bg-[#1a4278] rounded-xl flex items-center justify-center">
                   <Calculator className="w-7 h-7" />
                 </div>
