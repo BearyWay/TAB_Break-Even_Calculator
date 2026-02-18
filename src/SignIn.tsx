@@ -20,7 +20,7 @@ function SignIn({ onSignIn }: SignInProps) {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-slate-50">
-      <div className="max-w-7xl w-full bg-white rounded-2xl shadow-xl overflow-hidden flex min-h-[800px]">
+      <div className="max-w-7xl w-full bg-white rounded-2xl shadow-xl overflow-hidden flex min-h-[700px]">
         {/* Left Side - Features */}
         <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-[#267ffc] to-[#1e5ba8] text-white p-12 flex-col justify-between">
           <div>
@@ -97,7 +97,8 @@ function SignIn({ onSignIn }: SignInProps) {
         </div>
 
         {/* Right Side - Sign In Form */}
-        <div className="flex-1 flex items-center justify-center p-12 bg-white">
+        <<div className="lg:w-1/2 flex items-center justify-center p-12 bg-white">
+
           <div className="w-full max-w-md">
             <div className="text-center mb-10">
               <img
