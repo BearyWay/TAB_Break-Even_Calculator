@@ -18,12 +18,24 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const storedEmail = localStorage.getItem('user_email');
-    if (storedEmail) {
-      loadUser(storedEmail);
-    } else {
-      setIsLoading(false);
-    }
+    const initAuth = async () => {
+      const storedEmail = localStorage.getItem('user_email');
+      if (storedEmail) {
+        const timeoutId = setTimeout(() => {
+          console.warn('Auth loading timeout - clearing session');
+          localStorage.removeItem('user_email');
+          setUser(null);
+          setIsLoading(false);
+        }, 10000);
+
+        await loadUser(storedEmail);
+        clearTimeout(timeoutId);
+      } else {
+        setIsLoading(false);
+      }
+    };
+
+    initAuth();
   }, []);
 
   const loadUser = async (email: string) => {
@@ -36,6 +48,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
       if (userError) {
         console.error('Error fetching user:', userError);
+        setIsLoading(false);
         return;
       }
 
@@ -50,6 +63,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
         if (insertError) {
           console.error('Error creating user:', insertError);
+          setIsLoading(false);
           return;
         }
         currentUser = newUser;
@@ -70,6 +84,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
       if (calcError) {
         console.error('Error fetching calculator data:', calcError);
+        setIsLoading(false);
         return;
       }
 
@@ -82,6 +97,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
         if (insertCalcError) {
           console.error('Error creating calculator data:', insertCalcError);
+          setIsLoading(false);
           return;
         }
         setCalculatorData(newCalcData);
@@ -90,6 +106,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       }
     } catch (error) {
       console.error('Error loading user:', error);
+      localStorage.removeItem('user_email');
+      setUser(null);
     } finally {
       setIsLoading(false);
     }
